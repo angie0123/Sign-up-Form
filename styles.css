@@ -7,3 +7,35 @@
 body {
   height: 100vh;
 }
+
+.left-image {
+  width: 33.3%;
+  background: url("bg.jpg") center;
+  float: left;
+  height: 100%;
+  background-size: 900px;
+}
+
+.logo-banner {
+  height: 235px;
+  background: rgba(55, 48, 48, 0.71);
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.logo h1 {
+  font-size: 88px;
+}
