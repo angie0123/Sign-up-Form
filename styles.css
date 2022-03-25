@@ -78,6 +78,15 @@ body {
   padding-left: 10px;
 }
 
+.form-input input:focus {
+  border: 2px solid rgb(35, 172, 231);
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.error {
+  border: 2px solid rgb(99, 0, 0);
+}
+
 form button {
   margin-top: 32px;
   height: 52px;
@@ -87,6 +96,10 @@ form button {
   border-radius: 7px;
   font-size: 15px;
   font-weight: bold;
+}
+
+form button:hover {
+  cursor: pointer;
 }
 
 form p {
